@@ -1,27 +1,27 @@
 .but_container {
     display: flex;
-    justify-content: center; /* Centraliza os botões horizontalmente */
-    align-items: center; /* Centraliza os botões verticalmente */
-    padding: 20px; /* Espaçamento interno */
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
   }
   button {
-    background-color: #45a049;
+    background-color: #046609;
     color: aliceblue;
     margin: 10px;
-    padding: 10px 20px; /* Um pouco mais de padding horizontal */
-    border: none; /* Remover a borda padrão */
-    border-radius: 5px; /* Bordas arredondadas (ajustado para pixel) */
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    cursor: pointer; /* Muda o cursor para indicar que é clicável */
-    transition: all 0.3s ease; /* Transição suave para efeitos de hover */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
   }
   
   button:hover {
-    background-color: #3a3a3a; /* Cor mais clara no hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra maior no hover */
-    transform: translateY(-2px); /* Levanta o botão um pouco */
+    background-color: #3a3a3a; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); 
   }
 
   

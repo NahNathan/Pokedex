@@ -8,13 +8,15 @@ import { CardComponent } from './card/card.component';
 import { FormsModule } from '@angular/forms';
 import { BotaoComponent } from './botao/botao.component';
 import { PokemonService } from './services/pokemon.service';
+import { TelaComponent } from './tela/tela.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    BotaoComponent
+    BotaoComponent,
+    TelaComponent
   ],
   imports: [
     BrowserModule,
